@@ -14,6 +14,9 @@
 		3FB76E611AD06A0A008EEE78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E601AD06A0A008EEE78 /* Images.xcassets */; };
 		3FB76E641AD06A0A008EEE78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E621AD06A0A008EEE78 /* LaunchScreen.xib */; };
 		3FB76E701AD06A0A008EEE78 /* gameShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB76E6F1AD06A0A008EEE78 /* gameShopTests.m */; };
+		3FB76E7A1AD06B9C008EEE78 /* ShopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB76E791AD06B9C008EEE78 /* ShopTableViewController.m */; };
+		3FB76E7D1AD06C78008EEE78 /* ShopDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB76E7C1AD06C78008EEE78 /* ShopDataSource.m */; };
+		3FB76E801AD06DA4008EEE78 /* Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB76E7F1AD06DA4008EEE78 /* Skin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		3FB76E691AD06A0A008EEE78 /* gameShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB76E6E1AD06A0A008EEE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB76E6F1AD06A0A008EEE78 /* gameShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gameShopTests.m; sourceTree = "<group>"; };
+		3FB76E791AD06B9C008EEE78 /* ShopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopTableViewController.m; sourceTree = "<group>"; };
+		3FB76E7B1AD06BB2008EEE78 /* ShopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopTableViewController.h; sourceTree = "<group>"; };
+		3FB76E7C1AD06C78008EEE78 /* ShopDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDataSource.m; sourceTree = "<group>"; };
+		3FB76E7E1AD06C8B008EEE78 /* ShopDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDataSource.h; sourceTree = "<group>"; };
+		3FB76E7F1AD06DA4008EEE78 /* Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skin.m; sourceTree = "<group>"; };
+		3FB76E811AD06DBF008EEE78 /* Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,16 @@
 		3FB76E521AD06A0A008EEE78 /* gameShop */ = {
 			isa = PBXGroup;
 			children = (
-				3FB76E571AD06A0A008EEE78 /* AppDelegate.h */,
-				3FB76E581AD06A0A008EEE78 /* AppDelegate.m */,
+				3FB76E811AD06DBF008EEE78 /* Skin.h */,
+				3FB76E7F1AD06DA4008EEE78 /* Skin.m */,
+				3FB76E7B1AD06BB2008EEE78 /* ShopTableViewController.h */,
+				3FB76E791AD06B9C008EEE78 /* ShopTableViewController.m */,
+				3FB76E7E1AD06C8B008EEE78 /* ShopDataSource.h */,
+				3FB76E7C1AD06C78008EEE78 /* ShopDataSource.m */,
 				3FB76E5A1AD06A0A008EEE78 /* ViewController.h */,
 				3FB76E5B1AD06A0A008EEE78 /* ViewController.m */,
+				3FB76E571AD06A0A008EEE78 /* AppDelegate.h */,
+				3FB76E581AD06A0A008EEE78 /* AppDelegate.m */,
 				3FB76E5D1AD06A0A008EEE78 /* Main.storyboard */,
 				3FB76E601AD06A0A008EEE78 /* Images.xcassets */,
 				3FB76E621AD06A0A008EEE78 /* LaunchScreen.xib */,
@@ -220,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB76E5C1AD06A0A008EEE78 /* ViewController.m in Sources */,
+				3FB76E7D1AD06C78008EEE78 /* ShopDataSource.m in Sources */,
+				3FB76E7A1AD06B9C008EEE78 /* ShopTableViewController.m in Sources */,
 				3FB76E591AD06A0A008EEE78 /* AppDelegate.m in Sources */,
+				3FB76E801AD06DA4008EEE78 /* Skin.m in Sources */,
 				3FB76E561AD06A0A008EEE78 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ShopTableViewController.h"
+#import "ShopDataSource.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ShopTableViewController *svc = [[ShopTableViewController alloc] init];
+    
+    //CHANGE THIS TO MAIN MENU
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:svc];
+    [self.window setRootViewController:nc];
     return YES;
 }
 
