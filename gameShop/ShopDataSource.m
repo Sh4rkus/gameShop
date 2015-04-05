@@ -16,6 +16,7 @@
 
 @property(nonatomic) NSMutableArray *skinArray;
 @property(nonatomic) NSMutableArray *unlockedSkins;
+@property(nonatomic) UIImage *blueLizard;
 
 
 @end
@@ -27,10 +28,12 @@
     if((self = [super init]) == nil)
         return nil;
     
-    [self createSkin:@"Skin1" withDescription:@"Skin1 Description" withPrice:@"777"];
-    [self createSkin:@"Skin2" withDescription:@"Skin2 Description" withPrice:@"123"];
-    [self createSkin:@"Skin3" withDescription:@"Skin3 Description" withPrice:@"999"];
-    [self createSkin:@"Skin4" withDescription:@"Skin4 Description" withPrice:@"999"];
+    
+    
+    [self createSkin:@"Skin1" withDescription:@"Made In China" withPrice:@"777"];
+    [self createSkin:@"Skin2" withDescription:@"Crafted deep within Mt. Doom" withPrice:@"123"];
+    [self createSkin:@"Skin3" withDescription:@"Crafted by Justin...in Runescape" withPrice:@"999"];
+    [self createSkin:@"Skin4" withDescription:@"Crafted by a Craftsman" withPrice:@"999"];
     [self createSkin:@"Skin5" withDescription:@"Skin5 Description" withPrice:@"999"];
     [self createSkin:@"Skin6" withDescription:@"Skin6 Description" withPrice:@"999"];
     [self createSkin:@"Skin7" withDescription:@"Skin7 Description" withPrice:@"999"];

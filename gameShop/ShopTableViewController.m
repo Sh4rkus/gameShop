@@ -18,7 +18,7 @@
 
 @end
 
-enum { ITEM_VIEW_HEIGHT = 180, GAP_BTWN_VIEWS = 5, IMAGE_HEIGHT = 120, IMAGE_WIDTH = 120 };
+enum { ITEM_VIEW_HEIGHT = 150, GAP_BTWN_VIEWS = 5, IMAGE_HEIGHT = 120, IMAGE_WIDTH = 120 };
 
 static NSString *CellIdentifier = @"Cell";
 
@@ -42,6 +42,7 @@ static NSString *CellIdentifier = @"Cell";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellIdentifier];
     
     //self.dataSource.delegate = self
+    self.tableView.allowsSelection = NO;
     
     self.refreshControl = [UIRefreshControl new];
     [self.refreshControl addTarget:self action:@selector(refreshTableView:) forControlEvents:UIControlEventValueChanged];
@@ -141,22 +142,42 @@ static NSString *CellIdentifier = @"Cell";
    // iView.frame = imgFrame;
    // [thisView addSubview: iView];
     
-    UILabel *skinInfoLabel = [[UILabel alloc]
-                               initWithFrame:CGRectMake(IMAGE_WIDTH + 2 * 10, 5,
-                                                        viewFrame.size.width - IMAGE_WIDTH - 10,
+    UILabel *skinNameLabel = [[UILabel alloc]
+                               initWithFrame:CGRectMake(0, -55,
+                                                        viewFrame.size.width - 10,
                                                         viewFrame.size.height -5)];
+    UILabel *skinDescLabel = [[UILabel alloc]
+                              initWithFrame:CGRectMake(0, -40,
+                                                       viewFrame.size.width - 10,
+                                                       viewFrame.size.height -5)];
     
-    skinInfoLabel.tag = LABEL_TAG;
-    NSAttributedString *desc = [skin skinForListEntry];
+    skinNameLabel.tag = LABEL_TAG;
+    skinDescLabel.tag = LABEL_TAG;
     
-    NSLog(@"Skin Description %@", desc);
+    NSAttributedString *desc = [skin descriptionForListEntry];
+    NSAttributedString *name = [skin nameForListEntry];
+    NSString *price = [skin price];
     
-    skinInfoLabel.attributedText = desc;
-    skinInfoLabel.numberOfLines = 0;
-    [thisView addSubview: skinInfoLabel];
+    skinNameLabel.textAlignment = NSTextAlignmentCenter;
+    skinNameLabel.attributedText = name;
+    skinNameLabel.numberOfLines = 0;
+    
+    skinDescLabel.textAlignment = NSTextAlignmentCenter;
+    skinDescLabel.attributedText = desc;
+    skinDescLabel.numberOfLines = 0;
+                                
+    [thisView addSubview: skinNameLabel];
+    [thisView addSubview: skinDescLabel];
     thisView.tag = MAIN_VIEW_TAG;
-    [[cell contentView] addSubview:thisView];
     
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(250, 50, 100, 80)];
+    
+    [button setTitle:price forState:UIControlStateNormal];
+    [button setBackgroundColor:[UIColor lightGrayColor]];
+    
+    
+    [[cell contentView] addSubview:thisView];
+    [cell addSubview:button];
     return cell;
 }
 

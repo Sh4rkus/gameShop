@@ -17,6 +17,19 @@
 		3FB76E7A1AD06B9C008EEE78 /* ShopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB76E791AD06B9C008EEE78 /* ShopTableViewController.m */; };
 		3FB76E7D1AD06C78008EEE78 /* ShopDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB76E7C1AD06C78008EEE78 /* ShopDataSource.m */; };
 		3FB76E801AD06DA4008EEE78 /* Skin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB76E7F1AD06DA4008EEE78 /* Skin.m */; };
+		3FB76E8F1AD0BB83008EEE78 /* bluegreenredtriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E821AD0BB83008EEE78 /* bluegreenredtriangle.png */; };
+		3FB76E901AD0BB83008EEE78 /* desert background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E831AD0BB83008EEE78 /* desert background.jpg */; };
+		3FB76E911AD0BB83008EEE78 /* GreenArrowSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E841AD0BB83008EEE78 /* GreenArrowSprite.png */; };
+		3FB76E921AD0BB83008EEE78 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E851AD0BB83008EEE78 /* iphone.png */; };
+		3FB76E931AD0BB83008EEE78 /* JLHGreenArrowsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E861AD0BB83008EEE78 /* JLHGreenArrowsheet.png */; };
+		3FB76E941AD0BB83008EEE78 /* monster-lizard copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E871AD0BB83008EEE78 /* monster-lizard copy 2.png */; };
+		3FB76E951AD0BB83008EEE78 /* monster-lizard copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E881AD0BB83008EEE78 /* monster-lizard copy.png */; };
+		3FB76E961AD0BB83008EEE78 /* monster-lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E891AD0BB83008EEE78 /* monster-lizard.png */; };
+		3FB76E971AD0BB83008EEE78 /* redsword.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E8A1AD0BB83008EEE78 /* redsword.png */; };
+		3FB76E981AD0BB83008EEE78 /* redtriangle.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E8B1AD0BB83008EEE78 /* redtriangle.html */; };
+		3FB76E991AD0BB83008EEE78 /* redtriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E8C1AD0BB83008EEE78 /* redtriangle.png */; };
+		3FB76E9A1AD0BB83008EEE78 /* SNES - Chrono Trigger - Crono.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E8D1AD0BB83008EEE78 /* SNES - Chrono Trigger - Crono.png */; };
+		3FB76E9B1AD0BB83008EEE78 /* subltle background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB76E8E1AD0BB83008EEE78 /* subltle background.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		3FB76E7E1AD06C8B008EEE78 /* ShopDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDataSource.h; sourceTree = "<group>"; };
 		3FB76E7F1AD06DA4008EEE78 /* Skin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skin.m; sourceTree = "<group>"; };
 		3FB76E811AD06DBF008EEE78 /* Skin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skin.h; sourceTree = "<group>"; };
+		3FB76E821AD0BB83008EEE78 /* bluegreenredtriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluegreenredtriangle.png; path = ../../../Downloads/info/bluegreenredtriangle.png; sourceTree = "<group>"; };
+		3FB76E831AD0BB83008EEE78 /* desert background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "desert background.jpg"; path = "../../../Downloads/info/desert background.jpg"; sourceTree = "<group>"; };
+		3FB76E841AD0BB83008EEE78 /* GreenArrowSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GreenArrowSprite.png; path = ../../../Downloads/info/GreenArrowSprite.png; sourceTree = "<group>"; };
+		3FB76E851AD0BB83008EEE78 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.png; path = ../../../Downloads/info/iphone.png; sourceTree = "<group>"; };
+		3FB76E861AD0BB83008EEE78 /* JLHGreenArrowsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JLHGreenArrowsheet.png; path = ../../../Downloads/info/JLHGreenArrowsheet.png; sourceTree = "<group>"; };
+		3FB76E871AD0BB83008EEE78 /* monster-lizard copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monster-lizard copy 2.png"; path = "../../../Downloads/info/monster-lizard copy 2.png"; sourceTree = "<group>"; };
+		3FB76E881AD0BB83008EEE78 /* monster-lizard copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monster-lizard copy.png"; path = "../../../Downloads/info/monster-lizard copy.png"; sourceTree = "<group>"; };
+		3FB76E891AD0BB83008EEE78 /* monster-lizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monster-lizard.png"; path = "../../../Downloads/info/monster-lizard.png"; sourceTree = "<group>"; };
+		3FB76E8A1AD0BB83008EEE78 /* redsword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redsword.png; path = ../../../Downloads/info/redsword.png; sourceTree = "<group>"; };
+		3FB76E8B1AD0BB83008EEE78 /* redtriangle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = redtriangle.html; path = ../../../Downloads/info/redtriangle.html; sourceTree = "<group>"; };
+		3FB76E8C1AD0BB83008EEE78 /* redtriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redtriangle.png; path = ../../../Downloads/info/redtriangle.png; sourceTree = "<group>"; };
+		3FB76E8D1AD0BB83008EEE78 /* SNES - Chrono Trigger - Crono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNES - Chrono Trigger - Crono.png"; path = "../../../Downloads/info/SNES - Chrono Trigger - Crono.png"; sourceTree = "<group>"; };
+		3FB76E8E1AD0BB83008EEE78 /* subltle background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "subltle background.jpeg"; path = "../../../Downloads/info/subltle background.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +137,19 @@
 		3FB76E531AD06A0A008EEE78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FB76E821AD0BB83008EEE78 /* bluegreenredtriangle.png */,
+				3FB76E831AD0BB83008EEE78 /* desert background.jpg */,
+				3FB76E841AD0BB83008EEE78 /* GreenArrowSprite.png */,
+				3FB76E851AD0BB83008EEE78 /* iphone.png */,
+				3FB76E861AD0BB83008EEE78 /* JLHGreenArrowsheet.png */,
+				3FB76E871AD0BB83008EEE78 /* monster-lizard copy 2.png */,
+				3FB76E881AD0BB83008EEE78 /* monster-lizard copy.png */,
+				3FB76E891AD0BB83008EEE78 /* monster-lizard.png */,
+				3FB76E8A1AD0BB83008EEE78 /* redsword.png */,
+				3FB76E8B1AD0BB83008EEE78 /* redtriangle.html */,
+				3FB76E8C1AD0BB83008EEE78 /* redtriangle.png */,
+				3FB76E8D1AD0BB83008EEE78 /* SNES - Chrono Trigger - Crono.png */,
+				3FB76E8E1AD0BB83008EEE78 /* subltle background.jpeg */,
 				3FB76E541AD06A0A008EEE78 /* Info.plist */,
 				3FB76E551AD06A0A008EEE78 /* main.m */,
 			);
@@ -214,8 +253,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB76E961AD0BB83008EEE78 /* monster-lizard.png in Resources */,
+				3FB76E981AD0BB83008EEE78 /* redtriangle.html in Resources */,
+				3FB76E9A1AD0BB83008EEE78 /* SNES - Chrono Trigger - Crono.png in Resources */,
 				3FB76E5F1AD06A0A008EEE78 /* Main.storyboard in Resources */,
+				3FB76E8F1AD0BB83008EEE78 /* bluegreenredtriangle.png in Resources */,
+				3FB76E951AD0BB83008EEE78 /* monster-lizard copy.png in Resources */,
+				3FB76E9B1AD0BB83008EEE78 /* subltle background.jpeg in Resources */,
+				3FB76E901AD0BB83008EEE78 /* desert background.jpg in Resources */,
+				3FB76E971AD0BB83008EEE78 /* redsword.png in Resources */,
+				3FB76E991AD0BB83008EEE78 /* redtriangle.png in Resources */,
 				3FB76E641AD06A0A008EEE78 /* LaunchScreen.xib in Resources */,
+				3FB76E931AD0BB83008EEE78 /* JLHGreenArrowsheet.png in Resources */,
+				3FB76E921AD0BB83008EEE78 /* iphone.png in Resources */,
+				3FB76E911AD0BB83008EEE78 /* GreenArrowSprite.png in Resources */,
+				3FB76E941AD0BB83008EEE78 /* monster-lizard copy 2.png in Resources */,
 				3FB76E611AD06A0A008EEE78 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +482,7 @@
 				3FB76E751AD06A0A008EEE78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FB76E761AD06A0A008EEE78 /* Build configuration list for PBXNativeTarget "gameShopTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +491,7 @@
 				3FB76E781AD06A0A008EEE78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

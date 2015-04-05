@@ -78,7 +78,7 @@ enum { VIEW_HEIGHT = 90 };
 
 -(NSAttributedString *) compose: (NSString *) str withBoldPrefix: (NSString *) prefix
 {
-    const CGFloat fontSize = 13;
+    const CGFloat fontSize = 16;
     UIFont *boldFont = [UIFont boldSystemFontOfSize:fontSize];
     UIFont *regularFont = [UIFont systemFontOfSize:fontSize];
     UIFont *italicFont = [UIFont italicSystemFontOfSize:fontSize];
@@ -94,10 +94,10 @@ enum { VIEW_HEIGHT = 90 };
     
     NSMutableAttributedString *attrString = nil;
     if( [prefix isEqualToString: @""] ) {
-        [attrs setObject:italicFont forKey:NSFontAttributeName];
+        [attrs setObject:boldFont forKey:NSFontAttributeName];
         attrString = [[NSMutableAttributedString alloc] initWithString:str attributes:attrs];
     } else {
-        NSString *text = [NSString stringWithFormat:@"%@: %@", prefix, str];
+        NSString *text = [NSString stringWithFormat:@"%@ %@", prefix, str];
         attrString = [[NSMutableAttributedString alloc] initWithString:text attributes:attrs];
         NSRange range = NSMakeRange(0, prefix.length);
         [attrString setAttributes:boldAttrs range:range];
@@ -114,7 +114,6 @@ enum { VIEW_HEIGHT = 90 };
     [description replaceCharactersInRange: NSMakeRange(description.length, 0) withString:@"\n"];
     [price replaceCharactersInRange: NSMakeRange(price.length, 0) withString:@"\n"];
     [name appendAttributedString:description];
-    [name appendAttributedString:price];
     
     return name;
 }
@@ -129,7 +128,7 @@ enum { VIEW_HEIGHT = 90 };
 -(NSAttributedString *) descriptionForListEntry {
    
     NSString *description = [self description];
-    return [self compose:description withBoldPrefix:@"Description"];
+    return [self compose:description withBoldPrefix:@" "];
 }
 
 -(NSAttributedString *) priceForListEntry

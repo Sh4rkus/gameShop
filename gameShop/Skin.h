@@ -15,7 +15,9 @@
 -(void) print;
 
 -(NSString *) name;
+-(NSAttributedString *) nameForListEntry;
 -(NSString *) description;
+-(NSAttributedString *) descriptionForListEntry;
 -(NSString *) price;
 -(NSAttributedString *) skinForListEntry;
 
